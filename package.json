@@ -1,0 +1,46 @@
+{
+  "name": "hexo-migrator-wretch",
+  "version": "0.0.1",
+  "description": "Wretch.cc migrator plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kywk/hexo-migrator-wretch.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "cms",
+    "framework",
+    "hexo"
+  ],
+  "author": {
+    "name": "Moo Cow (kywk)",
+    "email": "kywk.id@gmail.com",
+    "url": "http://kywk.github.io/endroid"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/kywk/hexo-migrator-wretch/master/LICENSE"
+  },
+  "engines": {
+    "hexo": "*"
+  },
+  "dependencies": {
+    "xml2js": "*",
+    "request": "*",
+    "async": "*",
+    "underscore": "*",
+    "to-markdown": "*",
+    "http-get" : "*",
+    "unzip" : "*" ,
+    "graceful-fs" : "*"
+  },
+  "readme": "# Wretch migrator plugin for [Hexo]\n\nThis plugin can migrate your blog from Wretch backup archive file to Hexo.\n\n[Hexo]: http://zespia.tw/hexo",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kywk/hexo-migrator-wretch/issues"
+  },
+  "_id": "hexo-migrator-wretch@0.0.1",
+  "_from": "hexo-migrator-wretch@"
+}
